@@ -120,7 +120,7 @@ To prevent hallucinations and provide credible guidance, every guide includes an
 
 ---
 
-## 8. Setup & Local Development Instructions
+## 8. Setup Instructions
 
 ### Prerequisites
 - Node.js v18.17+ or v20.x
@@ -156,17 +156,8 @@ npm run start
 
 ---
 
-## 9. Vercel Deployment Guide
 
-1. Push this repository to GitHub or GitLab.
-2. Import the project into the [Vercel Dashboard](https://vercel.com/new).
-3. In the **Environment Variables** section, add:
-   - `GEMINI_API_KEY`: Your Google AI Studio API Key.
-4. Click **Deploy**. Vercel will detect Next.js and deploy with zero additional configuration.
-
----
-
-## 10. Known Limitations & Future Roadmap
+## 9. Known Limitations & Future Roadmap
 
 - **Headless Browser CLI Automation:** Future versions could integrate Playwright/Puppeteer agents to autonomously log into provider consoles, fill out non-sensitive fields, and pause only when a human 2FA prompt appears.
 - **Automated Token Exchange Probing:** Adding synthetic test suites that attempt an OAuth 2.0 PKCE exchange against sandbox credentials to automatically verify that redirect URIs and scopes are configured correctly.
@@ -174,6 +165,8 @@ npm run start
 
 ---
 *Built with care for the APM Integrations Take-Home Assignment.*
-#   o a u t h - s e t u p  
- #   o a u t h - s e t u p  
+#   o a u t h - s e t u p 
+ 
+ #   o a u t h - s e t u p 
+ 
  
